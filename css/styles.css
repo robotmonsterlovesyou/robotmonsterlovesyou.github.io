@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	font-family: 'Helvetica Neue', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 1.3em;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+}
+
+code, pre {
+	font-family: 'Monaco', monospace;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+pre {
+	white-space: pre-wrap;
+	overflow: auto;
+}
+
+blockquote {
+	position: relative;
+	margin: 40px auto;
+	width: 85%;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	margin-top: 5px;
+	font-size: 50px;
+}
+
+blockquote:before {
+	content: '“';
+	text-indent: -0.7em;
+}
+
+blockquote:after {
+	content: '”';
+	text-indent: 0.1em;
+}
+
+header {
+	color: #fff;
+	background: #f37051;
+	text-align: center;
+}
+
+header > div {
+	padding: 10px 0;
+}
+
+header h1 {
+	font-size: 38px;
+	line-height: 1.2em;
+	text-shadow: 0 1px 0 #bbb, 0 2px 0 #bbb, 0 3px 0 #bbb, 0 4px 0 #bbb, 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+header h1 a {
+	display: block;
+	color: #fff;
+}
+
+#content {
+	padding: 20px;
+	font-family: 'ff-meta-serif-web-pro', serif;
+	font-size: 20px;
+	line-height: 1.4em;
+}
+
+#content h1 {
+	line-height: 1.3em;
+}
+
+#content a {
+	color: #f37051;
+}
+
+@media screen and (min-width: 600px) {
+
+	header h1 {
+		font-size: 80px;
+		line-height: 1em;
+	}
+
+	code, pre {
+		font-size: 18px;
+	}
+
+	#content h1 {
+		font-size: 50px;
+		line-height: 1.2em;
+	}
+
+	#content {
+		padding: 20px 50px;
+		font-size: 24px;
+		line-height: 1.4em;
+	}
+
+}
+
+@media screen and (min-width: 900px) {
+
+	header > div,
+	#content {
+		margin: 0 auto;
+		width: 800px;
+	}
+
+}
+
+@media print {
+
+	header h1 {
+		text-shadow: none;
+	}
+
+	header h1 a,
+	#content a {
+		color: #333;
+	}
+
+}

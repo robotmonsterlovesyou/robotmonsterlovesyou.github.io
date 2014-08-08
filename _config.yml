@@ -1,0 +1,4 @@
+name: Robot Monster Loves You
+markdown: redcarpet
+highlighter: pygments
+permalink: /:title
